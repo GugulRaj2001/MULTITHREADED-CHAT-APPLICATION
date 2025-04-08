@@ -23,11 +23,11 @@ I developed a Chat Application in Java that allows multiple users to chat with e
 
 The main objectives were:
 
-  Let users join the chat by entering their name.
+  - Let users join the chat by entering their name.
 
-  Send and receive messages between users in real time.
+  - Send and receive messages between users in real time.
 
-  Handle multiple users using multithreading.
+  - Handle multiple users using multithreading.
 
 This project helped me learn about client-server communication and multithreading in Java.
 
