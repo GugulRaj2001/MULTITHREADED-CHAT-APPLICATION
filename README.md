@@ -17,17 +17,17 @@
 
 I developed a Chat Application in Java that allows multiple users to chat with each other in real time. The project consists of:
 
-1.Server: Manages connections and broadcasts messages to all clients.
+  1.Server: Manages connections and broadcasts messages to all clients.
 
-2.Client: Allows users to send and receive messages.
+  2.Client: Allows users to send and receive messages.
 
 The main objectives were:
 
-Let users join the chat by entering their name.
+  Let users join the chat by entering their name.
 
-Send and receive messages between users in real time.
+  Send and receive messages between users in real time.
 
-Handle multiple users using multithreading.
+  Handle multiple users using multithreading.
 
 This project helped me learn about client-server communication and multithreading in Java.
 
@@ -87,38 +87,51 @@ This project helped me learn about client-server communication and multithreadin
 ## 🚀 Which Editor Used:         *Eclipse*
 
 
+
 # O/P OF PROGRAM:
 
 ### Example 1: Client-Server Communication
 
 1. Client 1 (Alice) starts the chat and enters her name:
+   
    Enter your name: Alice
+   
    Alice has joined the chat!
 
-2. Client 2 (John) connects and enters his name:   
+2. Client 2 (John) connects and enters his name:
+  
    Enter your name: John
+   
    John has joined the chat!
 
 3. Client 1 (Alice) sends a message:
+
    Alice: Hello everyone!
 
    Server Broadcasts:
+   
    Alice: Hello everyone!
 
 4. Client 2 (John) sends a message:
+
    John: Hi Alice!
 
    Server Broadcasts:
+   
    John: Hi Alice!
    
 5. Client 1 (Alice) exits:
+
    Alice has left the chat.
 
    Server Broadcasts:
+   
    John has left the chat.
+   
 ### Example 2: Error Handling and Disconnection
 
 ==> If a client unexpectedly disconnects or there’s a network failure:
+
     Error: Connection lost with client.
 
 
